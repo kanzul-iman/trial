@@ -1,0 +1,462 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    /* background-color: #041e42; */
+    color: white;
+    font-size: 10px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 22px;
+    
+    
+    padding: 20px 20px;
+    background-color: #041e42;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 22px;
+    margin-left: auto;
+
+
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    
+  }
+  
+  .get-btn {
+    padding: 10px 20px;
+    border: 2px solid #a78bfa;
+    border-radius: 5px;
+    color: #a78bfa;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+
+  /* hero section */
+
+  .hero {
+    text-align: center;
+    padding: 10px 10px;
+    background-color: #041e42;
+    background-image: radial-gradient(circle at bottom left, #072860 0%, #041e42 60%);
+    color: white;
+    padding-bottom: 100px;
+
+  }
+  
+  .heading h1{
+    text-align: center;
+    margin-top: 10px;
+
+  }
+
+  .hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.3;
+  }
+  
+  .hero .highlight {
+    color: #c084fc;
+    text-shadow: 0 0 10px #c084fc;
+  }
+  
+  .hero p {
+    font-size: 15px;
+    margin-top: 15px;
+    color: #e0e0e0;
+  }
+  
+  .hero-buttons {
+   margin-top: 20px;
+   color: white;
+   padding: 12px 24px;
+   font-size: 30px;
+   border: none;
+   border-radius: 25px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+  }
+ 
+  .btn {
+    display: inline-block;
+    padding: 25px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+  }
+  
+  .btn.purple {
+    background: linear-gradient(to right, #cbc4e1, #c084fc);
+    color: white;
+  }
+  .btn.purple:hover {
+    background-color: #fbfafe;
+    transform: scale(1.05); /* slightly enlarges the button */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px #ffffff;
+  }
+  
+  
+  .btn.outline {
+    border: 2px solid #a78bfa;
+    color: white;
+  }
+
+  .btn.outline:hover {
+    border: 2px solid white; 
+    background-color: #5d5281; 
+  }
+  
+  .btn.outline:active {
+    transform: scale(0.97); 
+  }
+
+
+  .hero-image {
+    display: block;
+    margin: 20px auto 0 auto;
+    width: 150px; 
+    height: auto;
+    border-radius: 20px; 
+  }
+
+  
+  .below-hero-image {
+    
+    display: block;
+    margin: 0px ;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    width: 100%;       
+    height: 100%;
+    border-radius: 0px;
+  
+  }
+
+  /* two small images */
+
+  .image-row {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .main-img {
+    width: 300px; 
+    margin-bottom: 10px;
+  }
+  
+  .small-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* spacing between small images */
+  }
+  
+  .small-img {
+    width: 150px; /* small size */
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+
+/* after hero section */
+
+    .section-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 40px;
+      background-color: #f9f9f9;
+      gap: 40px;
+      flex-wrap: nowrap;
+      text-align: left;
+    }
+
+    .text-content {
+      flex: 1;
+    }
+
+    .text-content h2 {
+      font-size: 3rem;
+      margin-bottom: 15px;
+      color:black;
+    }
+
+    .text-content p {
+      font-size: 15px;
+      line-height: 20px;
+      margin-bottom: 25px;
+      color: #333;
+    }
+
+    .button-group {
+      display: grid;
+      gap: 5px;
+    }
+
+    .btn {
+      padding: 10px 30px;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+      margin-inline: auto;
+    }
+
+    .btn-primary {
+      background-color: #1e4875;
+      color: white;
+    }
+
+    .btn-primary:hover {
+      box-shadow: 0 4px 12px rgba(0, 123, 255, 0.4);
+      background-color: #0056b3;
+    }
+
+    .btn-secondary {
+      background-color: white;
+      color: black;
+      padding: 7px 20px;
+      padding-right: 40px;
+      border-radius: 30px;
+      border-color: purple;
+      border-width: 0.2cap;
+    }
+
+    .btn-secondary:hover {
+      box-shadow: 0 4px 12px rgba(110, 111, 110, 0.4);
+      background-color: #d9dfdb;
+    }
+
+    .image-content {
+      flex: 1;
+      text-align: right;
+    }
+
+    .image-content img {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    /* Responsive layout */
+    @media (max-width: 768px) {
+      .section-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .image-content {
+        text-align: center;
+      }
+
+      .button-group {
+        justify-content: center;
+      }
+    }
+
+    /* new section why origammo important */
+
+    .why-origami-section {
+      color : black;
+    padding: 60px 40px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+
+  .why-origami-header h2 {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+
+  .why-origami-header p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto 50px;
+    color: #444;
+    line-height: 1.6;
+  }
+
+  .why-origami-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+
+  .text-shadow {
+    font-size: 35px;
+    color: #c084fc;
+    text-shadow: 0 0 10px #c084fc;
+}
+
+  .image-left {
+    flex: 1;
+    min-width: 300px;
+  }
+
+  .image-left img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+  }
+
+  .text-right {
+    flex: 1;
+    min-width: 300px;
+  }
+
+  .text-right h3 {
+    font-size: 1.58rem;
+    margin-bottom: 15px;
+  }
+
+  .text-right p {
+    font-size: 1.0rem;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  @media (max-width: 768px) {
+    .why-origami-content {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .text-right {
+      text-align: center;
+    }
+  }
+
+  /* footer */
+
+  .footer {
+    
+    background-color: #062f49; 
+    color: #d1d9e6; 
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: smaller; 
+    padding-left: 100px;
+    padding-top: 20px ;
+    padding-right: 50px;
+    padding-bottom: 2px;
+  }
+
+  hr {
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    unicode-bidi: isolate;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+  .footer-links {
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+    margin-bottom: 15px;
+  }
+
+  .footer-links a {
+    color: #d1d9e6;
+    text-decoration: dashed;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+   
+  }
+
+
+
+  .footer-links a:hover {
+    color: #007bff; /* Light blue on hover */
+  }
+
+  .footer-link a {
+  text-decoration: underline;
+}
+
+  .footer-info p {
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.7;
+    max-width: 1100px;
+    text-align:center;
+    margin: 10px;
+  }
+
+
+  @media (max-width: 768px) {
+    .footer-links {
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .footer-info p {
+      font-size: 0.9rem;
+    }
+  }
+
+
+  /* company page */
+
+  .origami-built{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    margin-top: 50px;
+  }
+
+  .paragraph-tag{
+    text-align: left;
+    font-size: 16px;
+    margin-left: 40px;
+  }
+
+  .unordered-list{
+    text-align: left;
+    margin-left: 70px;
+  }
+
+  .full-video{
+    position: relative;
+    
+    align-items: center;
+    overflow: hidden;
+    border-image-repeat: stretch;
+    padding-bottom: 10%;
+    display: flex;
+    justify-content: center;
+  }
